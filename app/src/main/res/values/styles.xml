@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.CustomAlertDiaog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.SplashTheme">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <style name="AppTheme.FullScreenTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitleTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarSubTitleTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/colorAccent</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextColor">@color/darkThemeSecondaryTextColor</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="Display1TextStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="HeadlineTextStyle" parent="TextAppearance.AppCompat.Headline" />
+
+    <style name="TitleTextStyle" parent="TextAppearance.AppCompat.Title" />
+
+    <style name="RegularTextStyle" parent="TextAppearance.AppCompat.Subhead" />
+
+    <style name="SectionHeaderStyle" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="BodyTextStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="CaptionTextStyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="HintTextStyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <style name="TextInputLayoutErrorTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/errorColor</item>
+    </style>
+
+    <style name="ErrorTextStyle" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/errorColor</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <style name="AccentButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:height">36dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="AccentCurveButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:height">36dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:background">@drawable/bg_curved_accent_button</item>
+    </style>
+
+    <style name="AccentFullButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:height">40dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="AccentBorderlessButtonStyle" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="UnderlinedSpinnerStyle" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="android:height">48dp</item>
+    </style>
+
+    <style name="FlatCardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="ImageCardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="GridCardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+</resources>

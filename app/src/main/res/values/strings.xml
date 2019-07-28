@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MVP Utility App</string>
+
+    <string name="shared_preferences_name">UtilityApp</string>
+    <string name="database_name">UtilityApp.db</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- View state messages -->
+    <string name="msg_no_internet_title">No internet connection</string>
+    <string name="msg_no_internet_message">Make sure that Wi-Fi or cellular mobile data is turned on, then try again.</string>
+    <string name="msg_server_error_title">Something went wrong</string>
+    <string name="msg_server_error_message">There was a problem while connecting to our server, please try again.</string>
+    <string name="msg_no_records_title">No records found</string>
+    <string name="msg_no_records_message">There are no records to display, please try again.</string>
+
+    <string name="msg_waiting_for_location">Waiting for location&#8230;</string>
+
+    <string name="button_try_again">TRY AGAIN</string>
+    <string name="button_settings">SETTINGS</string>
+    <string name="button_not_now">NOT NOW</string>
+
+
+    <string name="action_dial_call">tel:%1$s</string>
+    <string name="action_sms">smsto:%1$s</string>
+    <string name="action_sms_body">sms_body</string>
+
+    <string name="error_message_phone_number_not_available">Phone number isn\'t available.</string>
+
+    <string name="error_browser_app_not_found">Sorry, could not find browser application on this device.</string>
+    <string name="error_message_app_not_found">Sorry, could not find messages application on this device.</string>
+    <string name="error_video_app_not_found">Sorry, could not find video application on this device.</string>
+    <string name="error_dialer_app_not_found">Sorry, could not find dialer application on this device.</string>
+    <string name="error_camera_app_not_found">Sorry, could not find camera application on this device.</string>
+    <string name="error_map_app_not_found">Sorry, could not find maps application on this device.</string>
+    <string name="error_calendar_app_not_found">Sorry, could not find calendar application on this device.</string>
+    <string name="error_street_view_app_not_found">Sorry, could not find street view application on this device.</string>
+    <string name="error_contacts_app_not_found">Sorry, could not find contacts application on this device.</string>
+
+    <string name="dialog_title_permission_location">Allow location permission</string>
+    <string name="dialog_title_permission_camera_storage">Allow camera and storage permission</string>
+    <string name="error_message_permission_permanent_denial_location">To view your current location, allow the app access to your location. Go to settings and enable location permission.</string>
+    <string name="error_message_permission_permanent_denial_camera_storage">To capture photo from camera, allow the app access to camera and storage. Go to settings and enable camera and storage permission.</string>
+
+    <string name="map_app_package_name">com.google.android.apps.maps</string>
+    <string name="uri_directions_format">google.navigation:q=%1$f,%2$f</string>
+    <string name="uri_location_search_format">geo:%1$f,%2$f?q=%3$s</string>
+    <string name="uri_address_search_format">geo:0,0?q=%1$s</string>
+    <string name="uri_streetview_format">google.streetview:cbll=%1$f,%2$f</string>
+    <string name="app_authorities">com.rajeshjadav.android.mvputilityapp.fileprovider</string>
+</resources>
