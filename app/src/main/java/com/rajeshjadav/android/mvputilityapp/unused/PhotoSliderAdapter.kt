@@ -9,10 +9,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.PagerAdapter.POSITION_NONE
-import au.com.reiwa.R
-import au.com.reiwa.ui.common.imageloader.GlideRequests
-import au.com.reiwa.ui.common.imageloader.ImageLoader
-import au.com.reiwa.util.extensions.inflate
 import com.github.chrisbanes.photoview.PhotoView
 import com.rajeshjadav.android.mvputilityapp.util.imageloader.GlideRequests
 import com.rajeshjadav.android.mvputilityapp.util.imageloader.ImageLoader
